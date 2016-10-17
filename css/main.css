@@ -19,27 +19,42 @@ input#movie-title, select, .SumoSelect > .CaptionCont {
 .text-logo {
   color: #FFF;
 }
+.text-logo span, .text-logo .fa-film {
+  color: #d8232a;
+}
 .SumoSelect {
   width: 100%;
 }
 
 .content {
+  color: #d5d5d5;
   display: block;
   z-index: 2;
   text-shadow: none;
   margin: 0;
   max-width: none;
+  min-height: 150px;
   position: absolute;
   top: 90.5%;
-  right: 0;
   width: 100%;
-  padding: 15px;
+  padding: 30px;
   background: rgba(3, 3, 3, 0.45);
 }
+.content .text-placeholder {
+  line-height: 150px;
+}
 
-/*@media only screen and (max-width:600px) {
+.content .img-thumbnail {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
 
 }
-@media only screen and (max-width:320px) {
-
-}*/
+.btn-primary {
+  background-color: #d8232a;
+  border-color: #d8232a;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: #24262c;
+  border-color: #d8232a;
+}
