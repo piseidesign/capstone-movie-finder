@@ -16,7 +16,7 @@ function getRequest(searchTitle) {
     q: searchTitle,
     r: 'json'
   };
-  url = "http://www.omdbapi.com/?t=" + searchTitle + "&r=json&tomatoes";
+  url = "https://www.omdbapi.com/?t=" + searchTitle + "&r=json&tomatoes";
 
   $.getJSON(url, params, function(data) {
     showResults(data);
